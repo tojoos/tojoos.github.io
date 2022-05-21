@@ -334,7 +334,6 @@ section .container {
   margin: 4px 10px;
 }
 .section-title p {
-  margin: 0;
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
@@ -473,55 +472,63 @@ section .container {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.projects .projects-carousel, .projects .projects-slider {
   overflow: hidden;
 }
-.testimonials .testimonial-item {
+.projects .projects-item {
   box-sizing: content-box;
   min-height: 500px;
 }
-.testimonials .testimonial-item .testimonial-img {
-  width: 500px;
+.projects .projects-item .container {
+  box-sizing: content-box;
+  background-color: transparent;
+}
+.projects .projects-item .testimonial-img {
+  width: 530px;
   max-width: 100%;
   height: auto;
   border-radius: 3%;
-  margin: -70px 40px 0 30px;
+  margin: 0 0 10px 30px;
   position: relative;
-  float: right;
-  z-index: 2;
   border: 2px solid rgba(255, 255, 255, 0.12);
 }
-.testimonials .testimonial-item h3 {
+.projects .projects-item h3 {
   text-align: justify;
   font-size: 20px;
   color: #e1e1e1;
-  margin: 20px 0 0 45px;
 }
-.testimonials .testimonial-item h5 {
+.projects .projects-item h4 {
+  text-align: justify;
+  font-size: 18px;
+  color: #e1e1e1;
+  margin: 20px 0 0 0;
+}
+.projects .projects-item h5 {
   font-size: 14px;
   font-weight: bold;
   display: inline-block;
   color: #e1e1e1;
-  margin: 30px 0 0 40px;
+  text-align: center;
+  margin: 0 0 0 32px;
   font-family: "Raleway", sans-serif;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.projects .projects-item .quote-icon-left, .projects .projects-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
-.testimonials .testimonial-item .quote-icon-left {
+.projects .projects-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
   top: -25px;
 }
-.testimonials .testimonial-item .quote-icon-right {
+.projects .projects-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 20px;
 }
-.testimonials .testimonial-item p {
+.projects .projects-item p {
   font-size: 40px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -533,20 +540,20 @@ section .container {
   border-radius: 6px;
   z-index: 1;
 }
-.testimonials .swiper-pagination {
+.projects .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.projects .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.3);
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.projects .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
 }
-.testimonials .social-links a {
+.projects .social-links a {
   font-size: 24px;
   display: inline-block;
   color: #fff;
@@ -555,10 +562,30 @@ section .container {
   margin: 0 0 0 10px;
   position: relative;
 }
-.testimonials .social-links a:hover {
+.projects .social-links a:hover {
   color: #18d26e;
 }
-
+.projects .projects-item ul {
+  list-style: none;
+  padding: 10px;
+}
+.projects .projects-item  ul li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.projects .projects-item  ul strong {
+  margin-right: 10px;
+}
+.projects .projects-item  ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #18d26e;
+  line-height: 0;
+}
+.projects .projects-item p:last-child {
+  margin-bottom: 0;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
