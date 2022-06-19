@@ -33,12 +33,14 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #b06ef5
+
+;
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #8f50d0;
   text-decoration: none;
 }
 
@@ -81,7 +83,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #b06ef5
+
+;
   padding-bottom: 6px;
 }
 #header img {
@@ -106,7 +110,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #b06ef5
+
+;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -162,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -205,7 +211,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #b06ef5
+
+;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -218,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -329,7 +337,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #8758b7;
   margin: 4px 10px;
 }
 .section-title p {
@@ -347,7 +355,9 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #b06ef5
+
+;
 }
 .about-me .content ul {
   list-style: none;
@@ -364,7 +374,9 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #b06ef5
+
+;
   line-height: 0;
 }
 .about-me .content p:last-child {
@@ -399,7 +411,9 @@ section .container {
   transform: translateX(-50%);
   font-size: 38px;
   padding: 40px;
-  color: #18d26e;
+  color: #b06ef5
+
+;
   border-radius: 50px;
   line-height: 10px;
 }
@@ -438,7 +452,9 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #b06ef5
+
+;
 }
 
 /*--------------------------------------------------------------
@@ -531,7 +547,9 @@ section .container {
   font-size: 40px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #b06ef5
+
+;
   margin: 0 15px 0 15px;
   padding: 20px 20px 20px 20px;
   background: rgba(255, 255, 255, 0.1);
@@ -550,7 +568,9 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .projects .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #b06ef5
+
+;
 }
 .projects .social-links a {
   font-size: 24px;
@@ -562,7 +582,9 @@ section .container {
   position: relative;
 }
 .projects .social-links a:hover {
-  color: #18d26e;
+  color: #b06ef5
+
+;
 }
 .projects .projects-item ul {
   list-style: none;
@@ -579,7 +601,9 @@ section .container {
 .projects .projects-item  ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #b06ef5
+
+;
   line-height: 0;
 }
 .projects .projects-item p:last-child {
@@ -607,7 +631,9 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #b06ef5
+
+;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -635,8 +661,12 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #b06ef5
+
+;
+  border: 2px solid #b06ef5
+
+;
 }
 
 /*--------------------------------------------------------------
@@ -650,7 +680,9 @@ section .container {
 }
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #b06ef5
+
+;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -682,7 +714,9 @@ section .container {
   transition: 0.3s;
 }
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #b06ef5
+
+;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -723,7 +757,9 @@ section .container {
   }
 }
 .credits a {
-  color: #18d26e;
+  color: #b06ef5
+
+;
   transition: 0.3s;
 }
 .credits a:hover {
